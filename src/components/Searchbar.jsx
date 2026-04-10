@@ -21,7 +21,7 @@ const Searchbar = () => {
             className="w-full pl-12 pr-4 py-2 rounded-full bg-stone-200 outline-0 text-gray-500"
             placeholder="Search any recipe"
           />
-          console.log('Debugging');
+          
         </div>
 
         <button className="bg-purple-800 rounded-md text-white font-semibold px-10 py-2 active:scale-95">
