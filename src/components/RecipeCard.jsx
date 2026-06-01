@@ -43,6 +43,7 @@ const RecipeCard = ({ recipe, onRemove }) => {
           <p className="mt-1 text-sm text-stone-500">{recipe.category ?? recipe.strCategory}</p>
         )}
       </div>
+      console.log("Debugging");
     </article>
   )
 }
