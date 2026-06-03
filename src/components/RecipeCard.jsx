@@ -8,7 +8,7 @@ const RecipeCard = ({ recipe, onRemove }) => {
 
   return (
     <article className="group overflow-hidden rounded-2xl bg-white shadow-md ring-1 ring-stone-200 transition hover:shadow-lg">
-      <div className="relative aspect-[4/3] overflow-hidden bg-stone-100">
+      <div className="relative aspect-4/3 overflow-hidden bg-stone-100">
         {image ? (
           <img
             src={image}
